@@ -7,7 +7,7 @@ result = 2 + 2; // Suma
 result = 2 - 2; // Resta
 result = 2 * 2; // multiplicación
 result = 2 / 2; // División
-result = 2 & 2; // Modulo de la división o resto
+result = 2 % 2; // Modulo de la división o resto
 result = 2 ** 2; // Exponente, elevado a...
 
 // Operadores de asignación + aritméticos (se puede usar con todos los operadores aritméticos)
