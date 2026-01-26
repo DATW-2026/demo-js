@@ -5,7 +5,7 @@ const word = 'abecedario';
 {
     // strings
     const vowelsCount = (word) => {
-        let count = 0;
+        let result = 0;
 
         for (let i = 0; i < word.length; i++) {
             let letter = word[i];
@@ -16,8 +16,12 @@ const word = 'abecedario';
                 letter === 'o' ||
                 letter === 'u'
             ) {
-                count += 1;
+                result += 1;
             }
         }
+
+        return result;
     };
+
+    console.log(`La palabra ${word} tiene ${vowelsCount(word)} vocales.`);
 }
